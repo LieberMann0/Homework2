@@ -77,7 +77,7 @@ Console.WriteLine("Знакочередующиеся элементы");
 
 index = 0;
 int sw = 0;
-while (index < 0)
+while (index < 10)
 {
     if (sw == 0)
     {
@@ -85,21 +85,16 @@ while (index < 0)
         {
             Console.WriteLine(A[index]); 
             sw = 1;
-        }
-        index++;
+        }        
     }
-    
-    
 
-    if (sw == 1)
+    else
     {
         if (A[index] < 0)
         {
             Console.WriteLine(A[index]); 
             sw = 0;
-        }  
-        index++;
+        }        
     }
-     
-    
+    index++;    
 }
